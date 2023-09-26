@@ -1,0 +1,45 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  background: #fff;
+}
+
+.counter {
+  margin-top: 126px;
+  margin-bottom: 36px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+}
+
+.counter__addBtn,
+.counter__resetBtn {
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  border: none;
+  background: #4191ff;
+  font-size: 24px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.counter__addBtn:hover,
+.counter__resetBtn:hover {
+  opacity: 0.8;
+}
+
+.counter__addBtn {
+  margin-bottom: 36px;
+}
+.counter__resetBtn {
+  background: #d45366;
+}
